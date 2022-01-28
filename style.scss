@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@200;300;400;500;600;700;800;900&family=Kiwi+Maru:wght@300;400;500&family=Lato:wght@100;300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,200&family=Nunito:wght@200;300;400;700;800;900&family=Pacifico&family=Podkova:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Rubik:wght@300;400;500;600;700;800;900&family=Satisfy&family=Ubuntu:wght@400;500;700&family=Yanone+Kaffeesatz:wght@300;400;500;700&family=Yuji+Mai&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.col-md-4 {
+  padding: 0;
+  margin: 0;
+}
+.main-section {
+  width: 100%;
+  height: 100%;
+  padding: .5rem 0 ;
+.contex{
+  margin: 1rem;
+}
+  .h1-span {
+    color: hsl(229, 6%, 66%);
+    font-weight: normal;
+    font-size:2rem;
+    padding-top: 1rem;
+  }
+  .h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+  }
+  .p {
+    font-size: 1rem;
+    color: hsl(229, 6%, 66%);
+    padding: .3rem 23rem;
+  }
+  .card {
+  margin: 1.5rem .5rem;
+    padding:  2rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    border: round($number: 2);
+    .card-body {
+      text-align: start;
+      //   padding-right: 36px;
+    }
+    h3 {
+      font-size: 1.2rem;
+      color: hsl(234, 12%, 34%);
+      font-weight: 700;
+    }
+    p {
+      color: hsl(229, 6%, 66%);
+      font-size: 0.8rem;
+      padding: 0.1rem 0;
+      line-height: 1.3rem;
+    }
+    margin-top: 1rem;
+  }
+  .one {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    margin-top: 8rem;
+  }
+  .two {
+    border-top: 3px solid hsl(0, 78%, 62%);
+  }
+  .three {
+    border-top: 3px solid hsl(34, 97%, 64%);
+  }
+  .four {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    margin-top: 8rem;
+  }
+  figure {
+    display: flex;
+    justify-content: end;
+    padding: 0.2rem;
+  }
+}
+@media (min-width: 180px) and (max-width: 500px) {
+  .main-section {
+    padding: .1rem;
+    .p {
+      padding: 0.4rem;
+    }
+    .one,
+    .four {
+      margin-top: 0;
+    }
+  }
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  .main-section {
+    padding: .1rem;
+    .p {
+      padding: 0.4rem;
+    }
+    .card {
+      margin: 0.5rem;
+    }
+    .one,
+    .four {
+      margin-top: 0;
+    }
+  }
+}
+@media (min-width: 800px) and (max-width: 1000px) {
+  .main-section {
+    padding: .1rem;
+    .p {
+      padding: 0.4rem;
+    }
+    .card {
+      margin: 0;
+    }
+    .one,
+    .four {
+      margin-top: 6rem;
+    }
+  }
+}
